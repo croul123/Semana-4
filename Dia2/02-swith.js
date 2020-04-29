@@ -45,7 +45,7 @@ let color = prompt("ingrese color")
 
 switch (color) {
     case `red`:
-        rpta = " rgb(0, 128, 0)";
+        rpta = " #ff0000";
         break;
     case `blu`:
         rpta = " #0000ff";
