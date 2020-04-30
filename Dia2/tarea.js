@@ -78,7 +78,7 @@ if ( Antiguedad >2 && Antiguedad < 5) {
     bono1 = sueldo * 0.2;
 } else {
 
-    if ( Antiguedad > 5 ) {
+    if ( Antiguedad >= 5 ) {
         bono1 = sueldo * 0.3;
     }
     
@@ -98,7 +98,7 @@ if (sueldo <= 1000) {
     
 } 
 if (sueldo > 1000 && sueldo <= 3500) {
-    bono2 = sueldo * 0.152;
+    bono2 = sueldo * 0.15;
     if( bono1 > bono2){
         console.log("Tu bono es " + bono1);
 
