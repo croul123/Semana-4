@@ -41,11 +41,9 @@ console.log(`Su deposito al cabo de ${anioF} año es  = ${deposito} `);
 // tarea 4.13
 
 
-let ventas = +prompt["Ingrese ventas"];
+let ventas = [10000, 25000, 30000, 800, 11000, 17000];
 
-let ventas10M = [];
-let ventas1020 = [];
-let ventasmas = [];
+
 
 
 
